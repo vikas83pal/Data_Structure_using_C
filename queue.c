@@ -43,7 +43,7 @@ void disp(){
 
      }else{
           printf("Queue elements are:");
-          for(i=front;i<rear;i++){
+          for(i=front;i<=rear;i++){
                printf(" %d|",queue[i]);
           }
           printf("\n");
